@@ -18,7 +18,8 @@ dependencies:
   - sqlalchemy
   - nose
   - pip:
-    - --no-dependencies git+git://github.com/KarrLab/wc_utils#egg=wc_utils
+    - git+https://github.com/KarrLab/log.git#egg=log-2016.10.12
+    - git+git://github.com/KarrLab/wc_utils#egg=wc_utils
     - git+git://github.com/KarrLab/wc_rules.git
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
