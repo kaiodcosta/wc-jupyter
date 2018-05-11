@@ -19,7 +19,8 @@ dependencies:
   - nose
   - pip:
     - git+https://github.com/KarrLab/log.git#egg=log-2016.10.12
-    - git+git://github.com/KarrLab/wc_utils#egg=wc_utils
-    - git+git://github.com/KarrLab/wc_rules.git
+    - git+git://github.com/KarrLab/obj_model.git#egg=obj_model-0.0.5
+    - git+git://github.com/KarrLab/wc_utils#egg=wc_utils-0.0.1a5
+    - git+git://github.com/KarrLab/wc_rules.git#egg=wc_rules-0.0.1
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
