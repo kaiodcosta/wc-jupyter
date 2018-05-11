@@ -18,6 +18,7 @@ dependencies:
   - sqlalchemy
   - nose
   - pip:
+    - git+https://github.com/KarrLab/pkg_utils.git#egg=pkg_utils
     - git+https://github.com/KarrLab/log.git#egg=log-2016.10.12
     - git+git://github.com/KarrLab/obj_model.git#egg=obj_model-0.0.5
     - git+git://github.com/KarrLab/wc_utils#egg=wc_utils-0.0.1a5
