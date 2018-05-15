@@ -3,8 +3,9 @@ git+git://github.com/KarrLab/wc_utils#egg=wc_utils-0.0.1a5
 git+https://github.com/KarrLab/obj_model.git#egg=obj_model-0.0.5
 git+git://github.com/KarrLab/wc_rules.git#egg=wc_rules-0.0.1
 pgcontents
-git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
 
+
+jupyter_contrib_nbextensions
 notebook == 4
 ipywidgets
 requests
